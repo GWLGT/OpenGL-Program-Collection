@@ -38,7 +38,7 @@ pkg up -y
 2. Install the required Packages:
 
 ```bash
-pkg in mesa mesa-dev glfw clang make cmake
+pkg in mesa mesa-dev glfw clang make cmake git
 ```
 
 3. Then, (Termux:X11 App Should be Installed) we Setup our X11 Environment:
