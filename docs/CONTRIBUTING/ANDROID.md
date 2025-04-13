@@ -17,6 +17,7 @@ Required:
 - `glfw`
 - `clang` or `gcc`
 - `make` and `cmake` or `ccmake`
+- `git`
 - `termux-x11`
 - Any Window Manager/Desktop Environment (e.g, `openbox`)
 
@@ -58,7 +59,13 @@ termux-x11 :0 -xstartup "dbus-launch --exit-with-session openbox-session"
 pkg in neovim
 ```
 
-5. Then, make any C++ OpenGL-related Program in `program/your-program-name`
+5. Clone this Repository:
+
+```bash
+git clone https://github.com/GWLGT/OpenGL-Program-Collection.git && cd OpenGL-Program-Collection
+```
+
+6. Then, make any C++ OpenGL-related Program in `program/your-program-name`
 
 > **Replace** `your-program-name` with the actual directory name you want
 
