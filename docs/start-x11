@@ -1,0 +1,17 @@
+#!/data/data/com.termux/files/usr/bin/env bash
+
+pkill -f com.termux.x11
+
+# Fix Termux:X11 (App) issue.
+# by forcing to use Software
+# Rendering for OpenGL
+export LIBGL_ALWAYS_SOFTWARE=1
+
+# Start Termux:X11 on Display 0
+# start dbus session and Openbox session
+sleep 3
+termux-x11 :0 -xstartup "dbus-launch --exit-with-session openbox-session" &> ~/.logfile.txt
+
+# Reset the Env Var, we don't need it
+# for Standard Termux Usage.
+unset LIBGL_ALWAYS_SOFTWARE 
