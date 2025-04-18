@@ -1,12 +1,15 @@
 cmake_minimum_required(VERSION 3.31.6)
 project(OpenGL_Triangle VERSION 1.0.0 LANGUAGES CXX C)
 
-set(CMAKE_CXX_STANDDARD 17)
-set(CMAKE_CXX_STANDDARD_REQUIRED True)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-include_directories(include/)
+include_directories(include)
 add_compile_options(-Wall -Wextra)
 add_link_options(-s)
+
+find_package(OpenGL REQUIRED)
+find_package(glfw3 REQUIRED)
 
 add_executable(main
   src/glad.c
@@ -19,6 +22,6 @@ add_executable(main
 )
 
 target_link_libraries(main
-  GL
+  OpenGL::GL
   glfw
 )

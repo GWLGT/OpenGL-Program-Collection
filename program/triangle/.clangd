@@ -2,5 +2,5 @@ CompileFlags:
   Add: [
     -Wall,
     -Wextra,
-    -I/data/data/com.termux/files/home/projects/cpp/OpenGL-Program-Collection/program/triangle/include
+    -I/data/data/com.termux/files/home/dev/projects/cpp/OpenGL-Program-Collection/program/triangle/include
   ]

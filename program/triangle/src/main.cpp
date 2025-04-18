@@ -67,7 +67,7 @@ int main(void) {
     MainShader.DeleteShader();
     GLFWApp.DeleteApp();
   } catch (const std::exception& err) {
-    std::clog << Utils::Color::Orange << "MESSAGE: Exception Caught: " << Utils::Color::Reset << std::endl << std::endl;
+    std::clog << Utils::Color::Orange << "MESSAGE: Exception Caught" << Utils::Color::Reset << std::endl << std::endl;
     std::cerr << Utils::Color::Red << err.what() << Utils::Color::Reset << std::endl;
 
     return 2;
