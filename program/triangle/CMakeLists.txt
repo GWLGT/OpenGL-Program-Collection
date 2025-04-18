@@ -10,6 +10,11 @@ add_link_options(-s)
 
 add_executable(main
   src/glad.c
+  src/AppClass.cpp
+  src/ShaderClass.cpp
+  src/VBOClass.cpp
+  src/VAOClass.cpp
+  src/EBOClass.cpp
   src/main.cpp
 )
 

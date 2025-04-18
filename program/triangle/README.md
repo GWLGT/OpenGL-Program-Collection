@@ -24,6 +24,9 @@ If you are using `ccmake` (Curses CMake), do this:
 
 Run `make` after that, done!.
 
+> [!NOTE]
+> Make sure to run the Program from the Root project, otherwise, it would fails to Read the Shader Files.  
+
 ---
 <h2 style="text-align: center">Credit/Licenses</h2>
 
