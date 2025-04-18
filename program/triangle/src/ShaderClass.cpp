@@ -7,13 +7,13 @@ std::string Shader::ReadFile(const std::string FilePath) {
   std::ifstream File(FilePath);
 
   if (!File) {
-    std::cout << Utils::Color::Red << "ERROR: Failed to Read the Shader File! EXITING... " << Utils::Color::Orange << "LOG:" << Utils::Color::Reset << std::endl;
-    throw std::runtime_error("Shader File Reading Proccess Gone Wrong!");
+    std::cout << Utils::Color::Red << "ERROR: Failed to Read the Shader File! EXITING... " << Utils::Color::Orange << "CODE 2" << Utils::Color::Reset << std::endl;
+    throw std::runtime_error("Vertex/Fragment Shader Reading Proccess Gone Wrong!\nMake sure to Run the Program from the Project Root Directory");
   } else {
     Buffer << File.rdbuf();
     Content = Buffer.str();
 
-    std::clog << Utils::Color::Green << "MESSAGE: Shader File was Read Successfully!" << Utils::Color::Reset << std::endl;
+    std::clog << Utils::Color::Green << "MESSAGE: Vertex/Fragment Shader was Read Successfully!" << Utils::Color::Reset << std::endl;
   }
 
   return Content;
