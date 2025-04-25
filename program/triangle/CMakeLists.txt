@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.31.6)
-project(OpenGL_Triangle VERSION 1.0.0 LANGUAGES CXX C)
+project(OpenGL_Triangle VERSION 2.2.0 LANGUAGES CXX C)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
