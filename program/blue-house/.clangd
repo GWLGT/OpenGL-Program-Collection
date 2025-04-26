@@ -1,0 +1,6 @@
+CompileFlags:
+  Add: [
+    -Wall,
+    -Wextra,
+    -I/data/data/com.termux/files/home/dev/projects/cpp/opengl/3d/include
+  ]
