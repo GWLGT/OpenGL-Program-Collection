@@ -1,4 +1,4 @@
-<h2 style="text-align: center">OpenGL | Triangle</h2>
+<h2 style="text-align: center">OpenGL | Rectangle</h2>
 
 ### What is This?
 

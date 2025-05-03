@@ -1,8 +1,8 @@
-<h2 style="text-align: center">OpenGL | Triangle</h2>
+<h2 style="text-align: center">OpenGL | House</h2>
 
 ### What is This?
 
-Another Simple OpenGL Programc... Nothing else.
+Another Simple OpenGL Program... Nothing else.
 
 ### How to Build?
 
